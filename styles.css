@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+  background-image: url("Images/bckg.jpg");
+}
+
+
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  box-shadow: #FEF2BF;
+  border: 10px solid #11052C;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 1;
+}
+
+.red {
+  background-color: #f65314;
+  
+}
+
+.green {
+  background-color: #7cbb00;
+}
+
+.blue {
+  background-color: #00a1f1;
+}
+
+.yellow {
+  background-color: #ffbb00;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
